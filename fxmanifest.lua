@@ -1,5 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
+author 'https://github.com/Pintta'
+description 'https://github.com/Pintta/Broken-weather'
+version '1.0.0'
 server_script 'server.lua'
 client_script 'client.lua'
