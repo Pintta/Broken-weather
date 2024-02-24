@@ -130,7 +130,8 @@ end)
 CreateThread(function()
     while true do
         newWeatherTimer = newWeatherTimer - 1
-        Wait((1000 * 60) * 60)
+        local NextWeather = (1000 * 60) * 60 -- Every 1 hour change weather (HC Roleplay)
+        Wait(NextWeather)
         if newWeatherTimer == 0 then
             nextWeatherStage()
             newWeatherTimer = 60
